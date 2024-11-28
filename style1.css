@@ -1,0 +1,60 @@
+﻿/*Align h1 to be centered*/
+h1 
+{
+    text-align: center; 
+    font-family: Garamond;
+    font-size: 30pt;
+}
+
+/*Alan Kay Photo*/
+.centered-image 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%; 
+}
+
+/*have body be centered*/
+body
+{
+    text-align: center;
+    font-family: Garamond;
+    font-size: 16pt;
+    background-color: lightblue;
+}
+
+/*made it so the navigation to other links is centered and made it so the bullet points dont show*/
+#navigation ul 
+{
+    font-size: 20pt;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+a 
+{
+    color: navy; /* Link color */
+}
+
+    /* Hover effect */
+    a:hover 
+    {
+        color: lightsteelblue; /* Light blue color on hover */
+        text-decoration: underline; /* Underline link on hover */
+    }
+
+    a:active 
+    {
+        color: crimson; /* Change color when the link is being clicked*/
+    }
+
+.box {
+    border: 2px solid black; 
+    background-color: aliceblue; 
+    padding: 20px; 
+    border-radius: 15px; /* Rounded edges */
+    width: 700pt; /* Width of the box*/
+    margin: 20px auto; 
+}
